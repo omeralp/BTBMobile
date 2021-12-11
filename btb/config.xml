@@ -34,6 +34,8 @@
 
 
 -    <platform name="android">
+        <preference name="AndroidXEnabled" value="true" />
+        <resource-file src="google-services.json" target="app/google-services.json" />
 
         <allow-intent href="market:*"/>
 
